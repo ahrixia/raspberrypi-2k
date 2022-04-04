@@ -1,7 +1,10 @@
 # Raspberrypi 4 - 2k Display (Blank Screen FIX)
 If you have connected your Raspberry pi 4 with a 2K Monitor and don't see anuthing on screen(Blank) but if you connect it with any other monitor and it works for any lower resolution monitor. I got you covered.
 
-#### Just add the below Display settings to the config.txt file in the boot folder
+I am uploading my config.txt file for refernce, but be careful to use it as I am using Android on this system.
+
+---------------
+### Just add the below Display settings to the config.txt file in the boot folder
 
 ```
 # DISPLAY FOR 2K (2560*1440)
@@ -25,3 +28,6 @@ hdmi_force_hotplug=1
 ```
 
 **Note**: I would recommened to backup the config.txt file before making any changes. Also you can just add comment(#) on lines which aren't required. 
+
+
+
